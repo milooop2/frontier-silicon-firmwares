@@ -100,6 +100,8 @@ Name Parts:
 Initial list of names taken from
 http://iradioforum.net/forum/index.php?topic=2099.msg18986#msg18986
 
+The Venice modules run a MEOS operating system on a
+Imagination Technologies META processor.
 
 
 ## Flashing the firmware
