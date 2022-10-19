@@ -5,6 +5,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/docs/firmware-2.0.md
 
 ## Known radios
+- ? `arts.ven6-jupiter6.1`: Tevion IWR 294 (2009)
 
 - `FS2026-0200-0143`: Noxon iRadio 300
 - `FS2026-0200-0233`: Sansui WLD700L mini-hifi
@@ -96,6 +97,9 @@ Name Parts:
   - `0500`: Venice 6.5 ([Product brief](https://fccid.io/YYX-HA-FS2026-F5/Users-Manual/Venice-6-5-PB-1813231.pdf))
 - `FS2340`: Venice X module ([brochure](https://www.frontiersmart.com/files/2021/10/Venice-X_PB.pdf))
 - `FS5332`: Minuet module ([Product brief](ns-mmi-FS5332-0000-0007_1.3.18-43), [copy](https://fccid.io/YYX-FS5332/Test-Setup-Photos/Minuet-PB-3099884.pdf))
+
+Very old models:
+- `arts.ven6-jupiter6`: Venice 6 module, FS1020G Chorus2 SoC ([Product brief](documents/FS1020/Chorus2_PB.pdf))
 
 Initial list of names taken from
 http://iradioforum.net/forum/index.php?topic=2099.msg18986#msg18986
