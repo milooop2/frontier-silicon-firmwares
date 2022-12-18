@@ -7,6 +7,8 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 ## Known radios
 - ? `arts.ven6-jupiter6.1`: Tevion IWR 294 (2009)
 
+- `FS2026-0200-0048`: Roberts Stream 83i
+- `FS2026-0200-0059`: Muvid IR 615
 - `FS2026-0200-0143`: Noxon iRadio 300
 - `FS2026-0200-0233`: Sansui WLD700L mini-hifi
 - `FS2026-0200-0273`: Peaq PDR300
@@ -20,11 +22,9 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0039`: Revo Super Connect
 - `FS2026-0500-0041`: Roberts Stream 93i
 - `FS2026-0500-0047`: Medion Life E85006 (MD 86185)
-- `FS2026-0200-0048`: Roberts Stream 83i
 - `FS2026-0500-0050`: Medion Life P85040 (MD 86988)
 - `FS2026-0500-0052`: Technisat DigitRadio 580
 - `FS2026-0500-0058`: Soundmaster IR3000DAB
-- `FS2026-0200-0059`: Muvid IR 615
 - `FS2026-0500-0067`: Hama DIR3100
 - `FS2026-0500-0069`: ???
 - `FS2026-0500-0072`: Noxon iRadio 410
