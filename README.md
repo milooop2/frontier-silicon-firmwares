@@ -68,6 +68,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0549`: Medion MD 87805
 - `FS2026-0500-0577`: Medion MD 87990
 - `FS2026-0500-0601`: Medion P85111 (MD 87295) [2017]
+- `FS2026-0500-0631`: VR-Radio ZX-1680-675
 - `FS2026-0500-0643`: Ruark Audio MRx
 - `FS2026-0500-0659`: Sonoro STREAM SO-410, Firmware v2.x [2018] ([manual](https://sonoro.com/wp-content/uploads/2022/09/STREAM_SO-410_Operating_Manual_R1.7_6_languages_Rev1.6.pdf))
 - `FS2026-0500-0710`: Medion MD 87805
