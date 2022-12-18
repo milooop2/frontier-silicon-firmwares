@@ -69,6 +69,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0577`: Medion MD 87990
 - `FS2026-0500-0601`: Medion P85111 (MD 87295) [2017]
 - `FS2026-0500-0643`: Ruark Audio MRx
+- `FS2026-0500-0659`: Sonoro STREAM SO-410, Firmware v2.x [2018] ([manual](https://sonoro.com/wp-content/uploads/2022/09/STREAM_SO-410_Operating_Manual_R1.7_6_languages_Rev1.6.pdf))
 - `FS2026-0500-0710`: Medion MD 87805
 - `FS2026-0500-0770`: PEAQ PDR261BT-B [2019]
 - `FS2026-0500-0783`: Teufel Radio 3sixty [2020]
@@ -85,6 +86,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2340-0000-0158`: Karcher DAB 7000i
 - `FS2340-0000-0177`: Hama DIR3300SBT [2019]
 - `FS2340-0000-0194`: Kenwood M-7000S-B [2021]
+- `FS2340-0000-0329`: Sonoro STREAM SO-411, Firmware v4.x [2022] ([manual](https://sonoro.canto.de/direct/document/rleg9u4tfh73h55i112tr8em0o/gFYfNJoe-cac9YbB0gpxAW8gckw/original?content-type=application%2Fpdf&name=STREAM_SO-411_Operating_Manual_R22-01_R06_interaktiv.pdf))
 
 - `FS5332-0000-0007`: JBL Playlist 150
 - `FS5332-0000-0082`: Blaupunkt MR 100
