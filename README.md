@@ -89,6 +89,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2340-0000-0177`: Hama DIR3300SBT [2019]
 - `FS2340-0000-0194`: Kenwood M-7000S-B [2021]
 - `FS2340-0000-0329`: Sonoro STREAM SO-411, Firmware v4.x [2022] ([manual](https://sonoro.canto.de/direct/document/rleg9u4tfh73h55i112tr8em0o/gFYfNJoe-cac9YbB0gpxAW8gckw/original?content-type=application%2Fpdf&name=STREAM_SO-411_Operating_Manual_R22-01_R06_interaktiv.pdf))
+- `FS2340-0000-0373`: Medion Life P85444 2.1 (MD89295) [2022]
 
 - `FS5332-0000-0007`: JBL Playlist 150
 - `FS5332-0000-0082`: Blaupunkt MR 100
