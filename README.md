@@ -94,6 +94,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2340-0000-0373`: Medion Life P85444 2.1 (MD89295) [2022]
 
 - `FS5332-0000-0007`: JBL Playlist 150
+- `FS5332-0000-0044`: Marshall Woburn MultiRoom [2017]
 - `FS5332-0000-0082`: Blaupunkt MR 100
 
 
