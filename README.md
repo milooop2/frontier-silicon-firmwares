@@ -87,6 +87,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2340-0000-0117`: Philips TAM8905 [2020]
 - `FS2340-0000-0142`: Grundig DSB 980 [2020]
 - `FS2340-0000-0146`: Grundig DTR 6000 X [2020]
+- `FS2340-0000-0147`: Grundig DTR 5000 X (GIR1120) [2020-03]
 - `FS2340-0000-0158`: Karcher DAB 7000i
 - `FS2340-0000-0177`: Hama DIR3300SBT [2019]
 - `FS2340-0000-0194`: Kenwood M-7000S-B [2021]
