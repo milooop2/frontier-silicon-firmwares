@@ -1,0 +1,48 @@
+Źródło własne&github https://github.com/cweiske/frontier-silicon-firmwares
+Modyfikacja firmware radia internetowego opartego na modelu Grundig DTR 5000x i DTR 6000x z chipsetem FS2340 (Venice X) posiadające pamięć flash W25q32JV (32mb).
+Info: 
+	1) próba wgrania "działającego" firmware do innego radia zakończona niepowodzeniem, radio się nie uruchamia, wyświetla się tylko logo producenta i radio się restartuje.
+	2) można wgrać zarówno starsze jak i nowsze oprogramowanie do radia.
+	3) W poniższym opisie korzystano z oprogramowania HxD Hex Editor. Link do strony z programem https://mh-nexus.de/en/
+
+
+
+1. Odczytać pamięć flash radia i zapisać kopię na dysku twardym. Jeśli pamięć FLASH jest uszkodzona i nie możesz jej odczytać. -->GAME OVER.
+2. odczytać wersję firmware z pierwszych wersów pliku hex (firmware) i wyszukać aktualizację oprogramowania wg. tutorialu na końcu pliku lub pliku firmware upate&download.txt
+3. W odczytanym firmware radia wyszukać słowa kluczowe "enco" lub w wersji HEX 65 6E 63 6F. Słowo kluczowe powinno być w linii 00012080x00. 
+4. Powyżej wyszukanego "enco" jest wpis dotyczący nowszego oprogramowania firmware w radiu do aktualizacji. (zaczyna się ono w adresie "00012000" kolumna 00) W moim przypadku odczytane oprogramowanie miało wersję firmware 
+		"ir-cui-FS2340-0000-0147_V4.5.13.707296-1A14.isu.bin"	
+	i było trochę starsze niż aktualnie dostępne.   Spróbuj pobrać podaną w kodzie wersje firmware. Opis jak sprawdzić dostępność oprogramownia, opisana jest na końcu pliku.
+5. Jeśli:
+	a) udało się pobrać firmware --> przejdź do pkt. 6
+	b) nie udało się pobrać oprogramowania przejdź do pkt. 7 
+	
+6. Jeśli udało się pobrać porogramowanie z pkt. 4 należy zmodyfikować odczynany wsad radia przy użyciu np Hex editor. 
+	a) Otworzyć pobrane oprogramowanie z pkt. 4. 
+	b) Usunąć z początku pliku dane aż do nazwy pliku (zakres adresów początkowy 00000000 - adres końcowy 0000070 kolumnca 0B włącznie) i skasować.
+	c) jeśli wszystko przebiegło pomyślnie, plik powinien zaczynać się od ir-cui-FS2340-000-............. dalsza część nazwy pliku wraz z podamiem wersji oprogramowania.
+	d) Wcisnąć Ctrl+A (zaznacz wszystko).
+	e) Skopiować wsad z tak zmienionego pliku, aż do końca pliku.(całość).  Ctrl+C
+	f) otworzyć nasz odczytany firmware z pkt. 1
+	g) zapisać go jako plik pod nową nazwą
+	h) w hex editor wcisnąć Ctrl+G	--> wpisać adres z pkt 4. (12000). Przeniesiemy się do tego adresu.
+	i) Wkleić skopiowaną część kodu do odczytanego pliku. Skrót Ctrl+B (wstaw poprzez nadpisanie). i zapisz plik.
+	j) następnie wgraj tak zmodyfikowanie oprogramownie do pamięci flash i uruchom radio. Powinno działać, można też opcjonalnie uruchomić procedurę update radia. Jest dostępne nowsze oprogramowanie.
+
+7. Sprawdź dostępność najnowszego oprogramowania. metoda opisana na końcu pliku.
+8. Jeśli:
+	a) udało ci się pobrać oprogramowanie --> przejdź do pkt. 9
+	b) nie udało się pobrać oprogramowania i nie masz update z pkt. 7 --> przejdź do pkt. 10
+9. Jeśli udało się pobrać plik akltualizacji z pkt. 7 należy zmodyfikować odczynany wsad radia przy użyciu np Hex editor. Postępować analogicznie wg. pkt. 6. Po uruchomieniu radia nowszego oprogramowania już nie będzie, radio dysponuje najnowszym oprogramowaniem.
+10. Wiele wsadów jest już pobranych i dostępnych na GITHUB. Sprawdź czy nie ma tu już twojego radia.  https://github.com/cweiske/frontier-silicon-firmwares 
+	a) Jeśli masz plik do aktualizacji do pobrania --> ściągnij pasujący plik i cofnij się do pkt. 6
+	b) jeśli nie masz pliku do aktualizacji --> GAME OVER, pozostaje czekać aż zdobędziesz plik aktualizacji.
+
+
+
+Sprawdzanie dostępności nowszych wersji oprogramowania za pomocą modyfikacji poniższego linku. W miejsce wersji softu wpisać własną wersję firmware z odczytanego wsadu. Procedura opisana w pliku firmware upate&download.txt. Źródło oryginalne: https://github.com/cweiske/frontier-silicon-firmwares
+		https://update.wifiradiofrontier.com/sr/FindUpdate.aspx?mac=123&customisation=ir-cui-FS2340-0000-0147&version=V4.3.7.2cacdb-1A10	
+	Jeśli mam dostępną nową wersję firmware, otrzymasz link do pobrania w przeglądarce. Link wygląda jak poniżej:
+		https://update.wifiradiofrontier.com/sr/Update.aspx?c=ir-cui-FS2340-0000-0147&amp;m=123&amp;v=V4.3.7.2cacdb-1A10&amp;t=Cust-Dir&amp;n=V4.5.13.707296-1A15&amp;f=/srupdates/ir-cui-FS2340-0000-0147/ir-cui-FS2340-0000-0147_V4.5.13.707296-1A15.isu.bin
+
+	firmware ir-cui-FS2340-0000-0147_V4.5.13.707296-1A15.isu.bin
