@@ -4,6 +4,7 @@ Info:
 	1) próba wgrania "działającego" firmware do innego radia zakończona niepowodzeniem, radio się nie uruchamia, wyświetla się tylko logo producenta i radio się restartuje.
 	2) można wgrać zarówno starsze jak i nowsze oprogramowanie do radia.
 	3) W poniższym opisie korzystano z oprogramowania HxD Hex Editor. Link do strony z programem https://mh-nexus.de/en/
+	4) Najważniejsza część kodu w radiu grundig znajduje się na samym końcu od adresu 003FF720 - do adresu 003FF830, ta część jest indywidualna do każdego radia, pozostała część kodu jest bez zmian, (w przypadku kodów nie zawierającego dodatkowych danych, jak hasła do usług, wifi, zapisanej muzyki na pamięci itp).
 
 
 

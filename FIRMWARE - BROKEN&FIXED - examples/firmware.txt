@@ -1,0 +1,30 @@
+r-cui-FS2340-0000-0147_V4.3.7.2cacdb-1A10.bin
+
+
+check
+https://update.wifiradiofrontier.com/sr/FindUpdate.aspx?mac=123&customisation=ir-cui-FS2340-0000-0147&version=V4.3.7.2cacdb-1A10
+
+download
+https://update.wifiradiofrontier.com/sr/Update.aspx?f=/srupdates/ir-cui-FS2340-0000-0147/ir-cui-FS2340-0000-0147_V4.3.7.2cacdb-1A10.isu.bin
+https://update.wifiradiofrontier.com/sr/Update.aspx?c=ir-cui-FS2340-0000-0147&amp;m=123&amp;v=V4.3.7.2cacdb-1A10&amp;t=Cust-Dir&amp;n=V4.5.13.707296-1A15&amp;f=/srupdates/ir-cui-FS2340-0000-0147/ir-cui-FS2340-0000-0147_V4.5.13.707296-1A15.isu.bin
+https://update.wifiradiofrontier.com/sr/Update.aspx?c=ir-cui-FS2340-0000-0147&amp;m=123&amp;v=V4.3.7.2cacdb-1A10&amp;t=Cust-Dir&amp;n=V4.5.13.707296-1A14&amp;f=/srupdates/ir-cui-FS2340-0000-0147/ir-cui-FS2340-0000-0147_V4.5.13.707296-1A14.isu.bin
+nie działa  https://update.wifiradiofrontier.com/sr/Update.aspx?c=ir-cui-FS2340-0000-0147&amp;m=123&amp;v=V4.3.7.2cacdb-1A10&amp;t=Cust-Dir&amp;n=V4.3.7.2cacdb-1A10&amp;f=/srupdates/ir-cui-FS2340-0000-0147/ir-cui-FS2340-0000-0147_V4.3.7.2cacdb-1A10.isu.bin
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<updates>
+  <software customisation="ir-cui-FS2340-0000-0147"
+            version="V4.5.13.707296-1A15">
+    <copyright>Copyright 2022 Frontier Silicon Ltd</copyright>
+    <download>https://update.wifiradiofrontier.com/sr/Update.aspx?c=ir-cui-FS2340-0000-0147&amp;m=123&amp;v=V4.3.7.2cacdb-1A10&amp;t=Cust-Dir&amp;n=V4.5.13.707296-1A15&amp;f=/srupdates/ir-cui-FS2340-0000-0147/ir-cui-FS2340-0000-0147_V4.5.13.707296-1A15.isu.bin</download>
+    <mandatory>false</mandatory>
+    <md5>11d1c0e0758ec6ce2bc17c4acfcb7cb2</md5>
+    <product>Internet Radio</product>
+    <size>3385494</size>
+    <summary>Copyright 2007,2008,2009 Frontier Silicon Ltd</summary>
+    <vendor>Frontier Silicon</vendor>
+  </software>
+</updates>
+
+
+
+https://update.wifiradiofrontier.com/sr/Update.aspx?c=ir-cui-FS2340-0000-0146&amp;m=123&amp;v=V4.5.4.722cf9-1A15&amp;t=Cust-Dir&amp;n=V4.5.13.707296-1A20&amp;f=/srupdates/ir-cui-FS2340-0000-0146/ir-cui-FS2340-0000-0146_V4.5.13.707296-1A20.isu.bin
